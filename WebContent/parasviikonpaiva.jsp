@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Paras viikonpäivä</title>
+<title>Paras viikonpÃ¤ivÃ¤</title>
 <style>
 #tulokset{
 	position:absolute;
 	top:46px;
-	left:63px;
+	left:65px;
 }
 .palkki{
 	background-color:lightblue;	
@@ -25,7 +25,7 @@
 </style>
 </head>
 <body>
-Valitse paras viikonpäivä:<br><br>
+Valitse paras viikonpÃ¤ivÃ¤:<br><br>
 <%
 
 String [] paiva = {"ma","ti","ke","to","pe","la","su"};
@@ -34,7 +34,7 @@ out.println("<input type='radio' name='paiva' value='"+0+"' checked='checked'/> 
 for(int i=1;i<7;i++){
 	out.println("<input type='radio' name='paiva' value='"+i+"'/> " + paiva[i] + "<br>");
 }
-out.println("<br><input type='submit' value='Lähetä'>");
+out.println("<br><input type='submit' value='LÃ¤hetÃ¤'>");
 out.println("</form><br>");
 
 if(request.getAttribute("paivat")!=null){
