@@ -10,7 +10,7 @@
 #tulokset{
 	position:absolute;
 	top:46px;
-	left:65px;
+	left:65px; //tämä muutettu
 }
 .palkki{
 	background-color:lightblue;	
